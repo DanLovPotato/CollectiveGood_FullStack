@@ -25,14 +25,14 @@ npm install
 - Add the following environment variables:
 
   ```txt
-  MONGODB_URI=your_mongodb_uri
-  JWT_SECRET=your_jwt_secret
-  PORT=your_preferred_port
-  SQL_DB=your_sql_database_name
-  SQL_USER=your_sql_username
-  SQL_PASSWORD=your_sql_password
-  SQL_HOST=your_sql_host
-  SQL_PORT=your_sql_port
+MONGOCONNECT=your_mongodb_connection_string
+MYSQL=your_mysql_database_name
+MYSQL_HOST=your_mysql_host
+MYSQL_USER=your_mysql_username
+MYSQL_PASSWORD=your_mysql_password
+JWT_SECRECT=your_jwt_secret
+JWT_EXPIRES_IN=your_jwt_expiry_time
+JWT_COOKIE_EXPIRES=your_jwt_cookie_expiry_time
   ```
 
 **Run the application:**
